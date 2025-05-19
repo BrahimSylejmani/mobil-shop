@@ -10,10 +10,10 @@ class Process extends Component {
         super(props);
         this.state = {
             processes : [
-                { id : "01", title : "Concept", desc : "Interdum malesuada fames ipsum primi faucibus." },
-                { id : "02", title : "Plan", desc : "Interdum malesuada fames ipsum primi faucibus." },
-                { id : "03", title : "Design", desc : "Interdum malesuada fames ipsum primi faucibus." },
-                { id : "04", title : "Development", desc : "Interdum malesuada fames ipsum primi faucibus." },
+                { id : "01", title : "Ekran", desc : "Interdum malesuada fames ipsum primi faucibus." },
+                { id : "02", title : "Bateri", desc : "Interdum malesuada fames ipsum primi faucibus." },
+                { id : "03", title : "Pastrim", desc : "Interdum malesuada fames ipsum primi faucibus." },
+                { id : "04", title : "Tjera", desc : "Interdum malesuada fames ipsum primi faucibus." },
             ]
         }
     }
@@ -25,7 +25,7 @@ class Process extends Component {
                     <div className="bg-overlay"></div>
                     <Container>
                     <SectionTitle
-                        title="Our Process"
+                        title="Servisimet"
                         desc="Porttitor dolor donec pulvinar tortor nisi quis dapibus tortor commodo sed Pellentesque hendrerit pellentesque libero nec sollicitudin."
                         isLight={true}
                     />

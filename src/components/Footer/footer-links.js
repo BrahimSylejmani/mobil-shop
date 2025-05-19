@@ -10,7 +10,7 @@ class FooterLinks extends Component {
                     <Row>
                         <Col lg={12}>
                             <div className="text-center">
-                                <p className="text-white-50 mb-0">© 2020 Xeril. Design by Themesdesign</p>
+                                <p className="text-white-50 mb-0">2025 - Te gjitha te drejtat e rezervuara</p>
                             </div>
                         </Col>
                     </Row>

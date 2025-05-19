@@ -24,6 +24,7 @@ class Index3 extends Component {
                 { id: 2 , idnm : "about", navheading: "Rreth nesh" },
                 { id: 3 , idnm : "portfolio", navheading: "Produktet" },
                 { id: 8 , idnm : "process", navheading: "Servisimet" },
+                { id: 8 , idnm : "contact", navheading: "Na kontakto" },
             ],
             pos : document.documentElement.scrollTop,
             imglight : true,
@@ -65,25 +66,12 @@ class Index3 extends Component {
         return (
             <React.Fragment>
                 <Suspense fallback = {this.Loader()} >
-
-                    {/* Importing Navbar */}
                     <NavbarPage navItems={this.state.navItems} navClass={this.state.navClass} imglight={this.state.imglight} />
-
-                    {/* Importing section */}
                     <Section/>
-
-                    {/* Importing about us */}
                     <About/>
-
-                    {/* Importing portfolio */}
                     <Portfolio/>
-
                     <Process/>
-
-                    {/* Importing cta */}
-                    <Cta/>
-                    
-                    {/* Importing footer */}
+                    <GetInTouch/>
                     <Footer/>
                 </Suspense>
 
