@@ -1,0 +1,46 @@
+{
+  "name": "xeril",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.0.1",
+    "@testing-library/user-event": "^14.5.2",
+    "bootstrap": "^5.3.3",
+    "react": "^18.3.1",
+    "react-countup": "^6.5.3",
+    "react-dom": "^18.3.1",
+    "react-modal-video": "^2.0.2",
+    "react-parallax": "^3.5.1",
+    "react-router-dom": "^6.28.0",
+    "react-scripts": "5.0.1",
+    "react-slick": "^0.30.2",
+    "react-sticky-header": "^0.2.0",
+    "react-text-rotator": "^1.2.0",
+    "react-youtube": "^10.1.0",
+    "reactstrap": "^9.2.3",
+    "sass": "1.77.6",
+    "yet-another-react-lightbox": "^3.21.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
