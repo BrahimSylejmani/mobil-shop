@@ -17,7 +17,7 @@ class GetInTouch extends Component {
         const message = e.target.comments.value;
 
         const text = `Name: ${name}%0AEmail: ${email}%0APhone: ${number}%0AMessage: ${message}`;
-        const phone = '38344207600'; 
+        const phone = '38345957833'; 
 
         const whatsappURL = `https://wa.me/${phone}?text=${text}`;
         window.open(whatsappURL, '_blank');
@@ -41,7 +41,7 @@ class GetInTouch extends Component {
                                             <i className="mdi mdi-map-marker text-primary h4"></i>
                                             <Media body className="ml-4">
                                                 <p className="text-muted">
-                                                    Rruga Shaban Shala
+                                                    Sheshi Fehmi & Xheve Lladrovci,
                                                     <br />Drenas, 13000
                                                 </p>
                                             </Media>
@@ -69,7 +69,7 @@ class GetInTouch extends Component {
                                         <Media className="media mt-4">
                                             <i className="mdi mdi-email text-primary h4"></i>
                                             <Media body className="ml-4">
-                                                <p className="text-muted">Email: FredVWeaver@rhyta.com</p>
+                                                <p className="text-muted">Email: naserimobilshop@gmail.com</p>
                                             </Media>
                                         </Media>
                                     </div>

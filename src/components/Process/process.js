@@ -10,10 +10,10 @@ class Process extends Component {
         super(props);
         this.state = {
             processes : [
-                { id : "01", title : "Ekran", desc : "Interdum malesuada fames ipsum primi faucibus." },
-                { id : "02", title : "Bateri", desc : "Interdum malesuada fames ipsum primi faucibus." },
-                { id : "03", title : "Pastrim", desc : "Interdum malesuada fames ipsum primi faucibus." },
-                { id : "04", title : "Tjera", desc : "Interdum malesuada fames ipsum primi faucibus." },
+                { id : "01", title : "Ekran", desc : "Zëvendësim ekranësh të thyer ose me probleme në prekje" },
+                { id : "02", title : "Bateri", desc : "Ndërrim i baterive që konsumohen shpejt." },
+                { id : "03", title : "Kapaka", desc : "Riparim dhe ndërrim kapakësh të thyer apo të dëmtuar." },
+                { id : "04", title : "Port mbushes", desc : "Riparim ose zëvendësim i portës së karikimit." },
             ]
         }
     }
@@ -26,7 +26,7 @@ class Process extends Component {
                     <Container>
                     <SectionTitle
                         title="Servisimet"
-                        desc="Porttitor dolor donec pulvinar tortor nisi quis dapibus tortor commodo sed Pellentesque hendrerit pellentesque libero nec sollicitudin."
+                        desc="Ne ofrojmë një gamë të plotë shërbimesh për mirëmbajtjen dhe riparimin e telefonave tuaj. Përdorim pjesë cilësore dhe pajisje profesionale për të siguruar funksionim të qëndrueshëm dhe afatgjatë të pajisjeve."
                         isLight={true}
                     />
 

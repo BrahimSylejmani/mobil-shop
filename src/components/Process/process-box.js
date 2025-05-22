@@ -10,7 +10,7 @@ class ProcessBox extends Component {
                             <Col key={key} lg={3} className={ process.id !== "04" ? "progress-border" : ""}>
                                 <div className="text-center">
                                     <div className="progress-count text-white mt-4">
-                                        <h3>-</h3>
+                                        <h3>{process.id}</h3>
                                     </div>
 
                                     <div className="progress-content bg-white mt-5 rounded p-4">
