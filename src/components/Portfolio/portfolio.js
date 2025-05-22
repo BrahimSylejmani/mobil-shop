@@ -10,12 +10,12 @@ import "yet-another-react-lightbox/styles.css";
 import SectionTitle from "../common/section-title";
 
 //Import Images
-import work1 from "../../assets/images/portfolio/iphone16.avif";
-import work2 from "../../assets/images/portfolio/img-2.jpg";
-import work3 from "../../assets/images/portfolio/img-3.jpg";
-import work4 from "../../assets/images/portfolio/img-4.jpg";
-import work5 from "../../assets/images/portfolio/img-5.jpg";
-import work6 from "../../assets/images/portfolio/img-6.jpg";
+import work1 from "../../assets/images/portfolio/1.png";
+import work2 from "../../assets/images/portfolio/2.png";
+import work3 from "../../assets/images/portfolio/3.png";
+import work4 from "../../assets/images/portfolio/4.png";
+import work5 from "../../assets/images/portfolio/5.png";
+import work6 from "../../assets/images/portfolio/6.png";
 
 //creating array of images for image portfolio
 const images = [work1, work2, work3, work4, work5, work6];
@@ -28,57 +28,43 @@ class Portfolio extends Component {
         {
           id: 1,
           image: work1,
-          title: "Consumer Insights",
-          subtitle: "Business Improve",
+          title: "Iphone 16",
+          subtitle: "Modelet",
           category: "Brand",
         },
         {
           id: 2,
           image: work2,
-          title: "Financial Service",
-          subtitle: "Business Improve",
+          title: "Iphone 15",
+          subtitle: "Modelet",
           category: "Brand",
         },
         {
           id: 3,
           image: work3,
-          title: "Latest Technology",
-          subtitle: "Business Improve",
+          title: "Iphone 14",
+          subtitle: "Modelet",
           category: "Design",
         },
         {
           id: 4,
           image: work4,
-          title: "Business Growth",
-          subtitle: "Business Improve",
+          title: "Iphone 13",
+          subtitle: "Modelet",
           category: "Graphic",
         },
         {
           id: 5,
           image: work5,
-          title: "International Business",
-          subtitle: "Business Improve",
+          title: "Iphone 11",
+          subtitle: "Modelet",
           category: "Brand",
         },
         {
           id: 6,
           image: work6,
-          title: "Consumer Products",
-          subtitle: "Business Improve",
-          category: "Brand",
-        },
-        {
-          id: 6,
-          image: work6,
-          title: "Consumer Products",
-          subtitle: "Business Improve",
-          category: "Brand",
-        },
-        {
-          id: 6,
-          image: work6,
-          title: "Consumer Products",
-          subtitle: "Business Improve",
+          title: "Iphone X",
+          subtitle: "Modelet",
           category: "Brand",
         },
       ],
