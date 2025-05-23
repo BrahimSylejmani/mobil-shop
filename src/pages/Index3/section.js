@@ -91,7 +91,7 @@ const Section = () => {
                 textShadow: "1px 1px 3px rgba(0,0,0,0.7)", // subtle shadow
               }}
             >
-              Telefona dhe aksesore
+              Telefona dhe aksesorë
             </h5>
             <h1
               className="text-uppercase fw-bold my-4"
@@ -116,7 +116,7 @@ const Section = () => {
                 textShadow: "1px 1px 2px rgba(0,0,0,0.6)", // subtle shadow for readability
               }}
             >
-              Dyqani juaj i telefonave dhe aksesoreve.
+              Dyqani juaj i telefonave dhe aksesorëve.
             </p>
           </Col>
         </Row>

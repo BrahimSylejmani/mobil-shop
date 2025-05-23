@@ -17,8 +17,20 @@ import work9 from "../../assets/images/portfolio/3.png";
 import work10 from "../../assets/images/portfolio/4.png";
 import work11 from "../../assets/images/portfolio/5.png";
 import work12 from "../../assets/images/portfolio/6.png";
+import work13 from "../../assets/images/portfolio/case1.png";
+import work14 from "../../assets/images/portfolio/case2.png";
+import work15 from "../../assets/images/portfolio/case3.1.png";
+import work16 from "../../assets/images/portfolio/glass.png";
+import work17 from "../../assets/images/portfolio/camera-glass.png";
+import work18 from "../../assets/images/portfolio/case6.png";
+import work19 from "../../assets/images/portfolio/aksesor1.png";
+import work20 from "../../assets/images/portfolio/aksesor2.png";
+import work21 from "../../assets/images/portfolio/aksesor3.png";
+import work22 from "../../assets/images/portfolio/aksesor4.png";
+import work23 from "../../assets/images/portfolio/aksesor5.png";
+import work24 from "../../assets/images/portfolio/aksesor6.png";
 
-const images = [work1, work2, work3, work4, work5, work6, work7, work8, work9, work10, work11, work12];
+const images = [work1, work2, work3, work4, work5, work6, work7, work8, work9, work10, work11, work12, work12, work13, work14, work15, work16];
 
 class Portfolio extends Component {
   constructor(props) {
@@ -37,6 +49,18 @@ class Portfolio extends Component {
         { id: 10, image: work10, title: "Samsung S22", subtitle: "Modeli", category: "Samsung" },
         { id: 11, image: work11, title: "Samsung S23", subtitle: "Modeli", category: "Samsung" },
         { id: 12, image: work12, title: "Samsung S24", subtitle: "Modeli", category: "Samsung" },
+        { id: 13, image: work13, title: "Rhode Case", subtitle: "Trendi që pushtoi rrjetin", category: "Case" },
+        { id: 14, image: work14, title: "Case me vend për kartela", subtitle: "Mbaje telefonin dhe kartelat në një vend ", category: "Case" },
+        { id: 15, image: work15, title: "Case me ngjitje", subtitle: "Mbrojtëse që ngjitet kudo", category: "Case" },
+        { id: 16, image: work16, title: "Xham mbrojtës", subtitle: "Mbroj ekranin nga gërvishjet ", category: "Case" },
+        { id: 17, image: work17, title: "Mbrojtëse kamere", subtitle: "Mbaj kamerën të sigurt", category: "Case" },
+        { id: 18, image: work18, title: "Popsockets", subtitle: "Buton për kapje", category: "Case" },
+        { id: 19, image: work19, title: "Kufje", subtitle: "Kufje nga brende si: Apple, Xiaomi e Samsung", category: "Aksesor" },
+        { id: 20, image: work20, title: "Ora të mençura", subtitle: "Stil dhe teknologji", category: "Aksesor" },
+        { id: 21, image: work21, title: "Zmadhues zëri", subtitle: "Muzikë dhe ritëm ", category: "Aksesor" },
+        { id: 22, image: work22, title: "Kokë Adapteri USB-C", subtitle: "Karikim i shpejtë", category: "Aksesor" },
+        { id: 23, image: work23, title: "Kabllo Type-C", subtitle: "Kabllo praktike e gjeneratës së re", category: "Aksesor" },
+        { id: 24, image: work24, title: "Kabllo Lightning", subtitle: "Për të gjitha pajisjet e Apple. ", category: "Aksesor" },
       ],
       displayCategory: "Iphone",
       photoIndex: 0,
@@ -84,19 +108,19 @@ class Portfolio extends Component {
                     <li className="ml-1">
                       <Link
                         to="#"
-                        onClick={() => this.setCategory("Design")}
-                        className={displayCategory === "Design" ? "categories active" : "categories"}
+                        onClick={() => this.setCategory("Case")}
+                        className={displayCategory === "Case" ? "categories active" : "categories"}
                       >
-                        Mbrojtese dhe adaptere
+                        Mbrojtëse dhe stil
                       </Link>
                     </li>
                     <li className="ml-1">
                       <Link
                         to="#"
-                        onClick={() => this.setCategory("Graphic")}
-                        className={displayCategory === "Graphic" ? "categories active" : "categories"}
+                        onClick={() => this.setCategory("Aksesor")}
+                        className={displayCategory === "Aksesor" ? "categories active" : "categories"}
                       >
-                        Tjeter
+                        Aksesorë
                       </Link>
                     </li>
                   </ul>
