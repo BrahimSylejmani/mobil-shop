@@ -88,7 +88,7 @@ class GetInTouch extends Component {
                                                         id="name"
                                                         type="text"
                                                         className="form-control"
-                                                        placeholder="Your name"
+                                                        placeholder="Emri"
                                                         required
                                                     />
                                                 </FormGroup>
@@ -103,7 +103,7 @@ class GetInTouch extends Component {
                                                         id="email"
                                                         type="email"
                                                         className="form-control"
-                                                        placeholder="Your email"
+                                                        placeholder="Email"
                                                         required
                                                     />
                                                 </FormGroup>
@@ -116,7 +116,7 @@ class GetInTouch extends Component {
                                                         id="number"
                                                         type="number"
                                                         className="form-control"
-                                                        placeholder="Phone number"
+                                                        placeholder="Numri i telefonit"
                                                         required
                                                     />
                                                 </FormGroup>
@@ -131,7 +131,7 @@ class GetInTouch extends Component {
                                                         id="comments"
                                                         rows="5"
                                                         className="form-control"
-                                                        placeholder="Your message"
+                                                        placeholder="Mesazhi juaj"
                                                         required
                                                     ></textarea>
                                                 </FormGroup>
