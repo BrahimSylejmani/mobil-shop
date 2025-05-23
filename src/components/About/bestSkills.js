@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 import ProgressBar from "./progressbar";
 
 //Import Imaghes
-import features1 from "../../assets/images/features/img-1.jpg";
+import features1 from "../../assets/images/portfolio/1.png";
 
 class BestSkills extends Component {
     constructor(props) {

@@ -5,7 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 import CounterBox from "./counter-box";
 
 //Import Images
-import img2 from "../../assets/images/features/img-2.jpg";
+import img2 from "../../assets/images/portfolio/1.png";
 
 class Counter extends Component {
     state = {

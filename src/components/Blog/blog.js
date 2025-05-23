@@ -6,9 +6,9 @@ import SectionTitle from "../common/section-title";
 import BlogBox from "./blog-box";
 
 //Import Images
-import blog1 from "../../assets/images/blog/img-1.jpg";
-import blog2 from "../../assets/images/blog/img-2.jpg";
-import blog3 from "../../assets/images/blog/img-3.jpg";
+import blog1 from "../../assets/images/portfolio/1.png";
+import blog2 from "../../assets/images/portfolio/1.png";
+import blog3 from "../../assets/images/portfolio/1.png";
 
 class Blog extends Component {
     constructor(props) {

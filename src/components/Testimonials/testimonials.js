@@ -13,9 +13,9 @@ import {
 import SectionTitle from "../common/section-title";
 
 //Import Images
-import img1 from "../../assets/images/users/img-1.jpg";
-import img2 from "../../assets/images/users/img-2.jpg";
-import img3 from "../../assets/images/users/img-3.jpg";
+import img1 from "../../assets/images/portfolio/1.png";
+import img2 from "../../assets/images/portfolio/1.png";
+import img3 from "../../assets/images/portfolio/1.png";
 
 class Clients extends Component {
   constructor(props) {
