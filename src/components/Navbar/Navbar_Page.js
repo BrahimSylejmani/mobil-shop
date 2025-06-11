@@ -13,8 +13,8 @@ import {
 import ScrollspyNav from "./scrollSpy";
 
 //Import Images
-import logolight from "../../assets/images/logo-light.png";
-import logodark from "../../assets/images/logo-dark.png";
+import logolight from "../../assets/images/naseri-light.png";
+import logodark from "../../assets/images/naseri-dark.png";
 
 class NavbarPage extends Component {
   constructor(props) {
