@@ -48,7 +48,7 @@ class NavbarPage extends Component {
                   src={logolight}
                   alt=""
                   className="logo-light"
-                  height="22"
+                  height="40"
                 />
               ) : (
                 <img src={logodark} alt="" className="logo-dark" height="22" />
